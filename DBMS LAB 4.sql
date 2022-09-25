@@ -205,6 +205,8 @@ on test.pricing_id = supplier_pricing.PRICING_ID)
 as tests2 group by supplier_pricing.supp_id)
 as final inner join supplier where final.supp_ID = supplier.supp_ID) as REPORT ;
 
+/* the end */
+
 
 
 
